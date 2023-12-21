@@ -1,0 +1,30 @@
+.player {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  padding: 20px 0;
+}
+
+.video_box {
+  position: relative;
+
+  span {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+
+    &:hover {
+      transform: scale(0.97);
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    svg {
+      color: #ff0000b7;
+      padding: 0;
+      border: 1px dashed #ff0000b7;
+    }
+  }
+}

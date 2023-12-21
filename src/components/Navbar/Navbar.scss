@@ -11,12 +11,14 @@
   transition-timing-function: ease-in;
   z-index: 1;
 }
+
 .nav__logo {
   position: fixed;
   left: 20px;
   width: 80px;
   object-fit: contain;
 }
+
 .nav__black {
   background: #111;
   transition-timing-function: ease-in;

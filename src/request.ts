@@ -1,6 +1,7 @@
 import { API_KEY } from "./private_keys";
+import { Irequest } from "./ts/interfaces/interfaces";
 
-const requests = {
+const requests: Irequest = {
 	fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
 	fetchTrending: `/trending/all/week?api_key=${API_KEY}&languages=en-US`,
 	fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&languages=en-US`,

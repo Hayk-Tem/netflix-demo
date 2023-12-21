@@ -11,13 +11,13 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-  
+
   return (
     <div className={`nav ${isBlack ? 'nav__black' : ''}`}>
-      <img 
-      className="nav__logo"
-      src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png" 
-      alt="Netflix logo" />
+      <img
+        className="nav__logo"
+        src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png"
+        alt="Netflix logo" />
     </div>
   )
 }
